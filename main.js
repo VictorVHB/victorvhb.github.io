@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "/VictorVHB/victorvhb.github.io/blob/main/firefox-icon.png") {
-    myImage.setAttribute("src", "/VictorVHB/victorvhb.github.io/blob/main/Pittsburgh-flag.png");
+  if (mySrc === "firefox-icon.png") {
+    myImage.setAttribute("src", "Pittsburgh-flag.png");
   } else {
-    myImage.setAttribute("src", "/VictorVHB/victorvhb.github.io/blob/main/firefox-icon.png");
+    myImage.setAttribute("src", "firefox-icon.png");
   }
 };
 
